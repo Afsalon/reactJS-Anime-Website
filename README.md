@@ -6,7 +6,8 @@ https://calikoanime.netlify.app/
 This Webisite was made using ReactJS
 It consisted of useState,useEffect hooks, alternatively it used React-Router and a custom hook namely useFetech.
 For use case of useReducer hook check out the calculator app.
-Videos were not uploaded as it may lead to piracy. 
+Videos were not uploaded as it may lead to piracy.
+Local Version contains videos.
 Home Page
 <img width="1440" alt="Screenshot 2021-12-24 at 12 31 37 AM" src="https://user-images.githubusercontent.com/68525687/147282670-bffb12b3-183f-4bbe-8f86-76e32c93ebb7.png">
 Detail Page
