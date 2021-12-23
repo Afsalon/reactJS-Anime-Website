@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  position:fixed;
+  top:0;
+  left:0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  border: 1px solid black;
+  padding: 15px;
+  padding-left:45px;
+  font-size: 30px;
+  box-shadow: 0 0 30px rgba(255,255,255, 1);
+  font-family: 'Londrina Outline', cursive;
+  color:white;
+  background:black;
+}
+
+.item1{
+  font-size: 40px;
+  /* position:relative;
+  right:150px; */
+}
+.item2{
+  margin-left:55%;
+  margin-right:50px;
+}
+a {
+  color: #FFF;
+  text-decoration:none;
+}
+a:hover {
+   color: #e75480;
+}
+
+.item1:hover,.item2:hover,.item3:hover{
+  cursor: pointer;
+  transition: all 0.5s linear;
+  color: #e75480;
+  background: rgba(199, 79, 104,0.3);
+  border-radius: 100%;
+}
+.load{
+  font-family: 'Londrina Outline', cursive;
+  font-size: 50px;
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background: #E8998D;
+}
+
+.anime_block {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 425px;
+  border-radius: 5px;
+  margin: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-family: 'Days One', sans-serif;
+}
+
+.row1 {
+  width: 425px;
+  height: 425px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.categorie {
+  text-align: center;
+  font-size: 15px;
+  background: #ffd700;
+  border: 5px solid #ffd700;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.episode {
+  font-size: 18px;
+  background: #FFBF81;
+  color: black;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.name {
+  letter-spacing: 1px;
+}
+.AboutInfo{
+  text-align: center;
+  display: inline-block;
+  border:1px solid #E9999D;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  background:white;
+  border-radius: 8px;
+  background:black;
+}
+.Welcome,.Enjoy{
+  font-family: 'Londrina Outline', cursive;
+  letter-spacing:3px;
+  font-size:3rem;
+  color:white;
+}
+.details{
+  padding: 0 50px;
+  color:gold;
+  font-family: 'Days One', sans-serif;
+  font-size:15px;
+
+}
+.DetailBlock{
+  width:100%;
+  min-height:100vh;
+  border:1px solid black;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.DetailPic{
+  width:620px;
+  height:620px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 75px;
+}
+.DetailInfo{
+  display: flex;
+  flex-direction:column;
+  padding:0px 50px;
+  font-family: 'Days One', sans-serif;
+  letter-spacing:3px;
+  border:1px solid rgba(0,0,0,0.1);
+  border-top-color: 1px solid black;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin-top:50px;
+}
+.DetailName{
+  color:#bdb2ff;
+  background:black;
+  font-size:1.5rem;
+  letter-spacing:5px;
+  text-align: center;
+  margin-top:0;
+  padding:10px;
+}
+.DetailRating,.DetailEpisode,.DetailStudio,.DetailCategorie{
+  color:#bdb2ff;
+  width:220px;
+  border:1px solid rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding-left:10px;
+  background-color: #e75480;
+}
+
+.DetailStudio{
+  padding:10px;
+  text-align: center;
+  width:100%;
+  margin-bottom:0;
+  background:#ffd700;
+  color:black;
+}
+.DetailCategorie{
+  width:100%;
+}
+.DetailDescription{
+  color:#c0fdff;
+  background:#e75480;
+  border:1px solid rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding:5px;
+  padding-left:15px;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: 2px;
+}
+@media screen and (max-width: 1200px) {
+  .navbar{
+    justify-content:flex-start;
+    padding:15px 0px;
+  }
+  .item1,.item2,.item3{
+    margin-left:20px;
+  }
+
+  .anime_block{
+    width:350px;
+  }
+  .row1{
+    width:350px;
+  }
+  .name {
+    font-size:15px;
+  }
+  .episode{
+    font-size: 15px;
+  }
+  .item2{
+    margin-right:0;
+  }
+  .DetailBlock{
+    flex-direction:column;
+  }
+  .DetailPic{
+    width:100%;
+    height:24rem;
+  }
+  .DetailInfo{
+    padding-left: 10px;
+  }
+  .DetailName{
+    margin:0 auto;
+    width:100%;
+  }
+}
